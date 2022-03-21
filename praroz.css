@@ -1,0 +1,151 @@
+*{
+	margin: 0;
+	padding: 0;
+
+}
+
+.main{
+	width: 100%;
+	background: linear-gradient(rgba(0,0,0,0.5)
+	,rgba(0,0,0,0.5)), url(images/project.jpg);
+	background-position: center;
+	background-size: cover;
+	height: 100vh;
+ 
+}
+
+.navbar{
+	width: 1200px;
+	height: 75px;
+	margin: auto;
+}
+
+.icon{
+	width: 200px;
+	float: left;
+	height: 70px;
+}
+.logo{
+	color: orange;
+	font-size: 35px;
+	font-family: Arial;
+	padding-left: 20px;
+	float: left;
+	padding-top: 10px;
+	margin-top: 5px;
+}
+
+.menu{
+	width: 400px;
+	float: left;
+	height: 70px;
+}
+ul{
+	float: left;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+ul li{
+	list-style: none;
+	margin-left: 62px;
+    margin-top: 27px;
+	font-size: 14px;
+	text-transform: uppercase;
+}
+
+
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+
+
+ul li a:hover{
+	color: orange;
+}
+
+.search{
+	width: 330px;
+	float: left;
+	margin-left: 270px;
+}
+
+.srch{
+	width: 200px;
+	height: 40px;
+	background: transparent;
+	border: 1px solid orange;
+	margin-top: 13px;
+	color: white;
+	border-right: none;
+	float: left;
+	font-size: 16px;
+	padding: 10px;
+	border-bottom-left-radius: 5px;
+	border-top-left-radius: 5px;
+
+}
+.btn{
+	width: 100px;
+	height: 40px;
+	background: orange;
+	border: 2px solid orange;
+	margin-top: 13px;
+	border-bottom-right-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+.btn:focus{
+	outline: none;
+
+}
+
+.srch:focus{
+	outline: none;
+}
+.content{
+	width: 1200px;
+	height: auto;
+	margin: auto;
+	color: white;
+	position: relative;
+
+}
+.content .para{
+	padding-left:20px ;
+	padding-bottom: 80px;
+	letter-spacing: 1.2px;
+	line-height: 30px;
+
+}
+.content h1{
+	font-family: 'Times New Roman';
+	font-size: 50px;
+	padding-left: 20px;
+	margin-top: 70px;
+	margin-bottom: 40px;
+	letter-spacing:1.2px ;
+
+}
+.cn{
+	height: 40px;
+	width: 150px;
+	background-color: orange;
+	margin-left:20px;
+	border-radius: 10px;
+	border: none;
+}
+
+.cn a{
+	text-decoration: none;
+	font-weight: bold;
+	font-size: larger;
+	color: black;
+	
+}
